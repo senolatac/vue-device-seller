@@ -2,6 +2,9 @@
   "name": "sha-device-seller-ui",
   "buildpacks": [
     {
+      "url": "https://github.com/heroku/heroku-buildpack-nginx.git"
+    },
+    {
       "url": "heroku/nodejs"
     }
   ]

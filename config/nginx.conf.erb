@@ -47,6 +47,7 @@ http {
       add_header Strict-Transport-Security "max-age=31536002;";
       add_header X-Content-Type-Options "nosniff";
       add_header X-XSS-Protection "1; mode=block";
+      add_header Content-Security-Policy "default-src 'self';";
 
       try_files $uri $uri/ =404;
     }
