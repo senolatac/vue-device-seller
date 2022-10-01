@@ -37,6 +37,9 @@
     "eslint-plugin-vue": "^7.0.0",
     "prettier": "^2.2.1"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "eslintConfig": {
     "root": true,
     "env": {
